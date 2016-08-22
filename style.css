@@ -25,37 +25,24 @@ h1 {
   margin-top: 0px;
 }
 
-#open {
-  display: flex;
+#logo {
   width: 300px;
   height: 50px;
-  flex-wrap: wrap;
-  /*flex-direction: column;*/
-  margin-top: 0em;
-  margin-bottom: 0em;
+}
 
+#logo > img {
+  float: left;
+  margin-right: 5px;
 }
-#logo {
-  width: 42px;
-  height: 45px;
-  justify-content: flex-start;
-}
+
 #deli {
   font-family: 'Yellowtail', cursive;
-  display: flex;
   font-size: 25px;
   height:30px;
-  margin-top: 0;
-  margin-bottom: 0;
 
 }
 #slogan {
-  display: flex;
-  flex-wrap: wrap;
   font-size: 10px;
-  margin-top: 0;
-  margin-bottom: 0;
-
 }
 
 #share_bar {
@@ -67,9 +54,6 @@ h1 {
   width: 180px;
 }
 
-#mail {
-
-}
 hr.style11 {
   height: 6px;
   background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
